@@ -1,0 +1,10 @@
+Lenguaje: Cplusplus;
+{
+    Programa          -> Librerias Main;
+    Librerias         -> #include <identificador(.h)? > (# Librerias)?;
+    Main              -> void main\(\)
+                        {
+                            [a|b|numero]
+                        };
+
+}
